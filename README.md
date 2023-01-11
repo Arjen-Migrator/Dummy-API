@@ -19,6 +19,10 @@ http://dummyapi.io/ Данный сайт представляет собой с
 
 ## Майнд-карта
 
+![Alt-текст](https://i.imgur.com/76MAVP3.png "МК")
+
+Также майнд-карту можно [скачать](https://github.com/Arjen-Migrator/Dummy-API/blob/main/DummyAPI.xmind).
+
 ## Тест-кейсы
 
 ## Баг-репорты
