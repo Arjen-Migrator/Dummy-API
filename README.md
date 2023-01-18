@@ -433,6 +433,43 @@ ___
 **Response Body: string**
 
 ___
+### Типы ошибок
+
+___
+**APP_ID_NOT_EXIST**
+
+**app-id** указан, но значение некорректно.
+
+___
+APP_ID_MISSING
+
+**app-id** не указан корректным образом. Обратите внимание, что **app-id** должен быть указан для каждого запроса. Рекомендуется ознакомится с кратким руководством **Getting Started** для более подробной информации.
+
+___
+PARAMS_NOT_VALID
+
+URL params (ex: /user/{id} - {id} is URL param) is not valid. This error returned in both cases: param format is invalid, param is not found.
+
+___
+BODY_NOT_VALID
+
+Applicable only for not GET requests like POST, PUT or DELETE. Boyd format is invalid, or even some keys are not valid.
+
+___
+RESOURCE_NOT_FOUND
+
+Применимо для всех запросов, содержащих параметр **id** в URL. Означает, что запрошенные данные не найдены (для команд get, update, delete). Сообщение уместно при попытке создать пост для пользователя, который не существует либо был удален.
+
+___
+PATH_NOT_FOUND
+
+Путь запроса некорректен, следует свериться с документацией, чтобы уточнить нужный URL.
+
+___
+SERVER_ERROR
+
+Что-то случилось с сервером, попробуйте отправить запрос повторно. Кроме того, можно сообщить об ошибке службе поддержки - через телеграм или почту.
+
 ## Майнд-карта
 
 ![Alt-текст](https://i.imgur.com/76MAVP3.png "МК")
