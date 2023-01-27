@@ -8,6 +8,7 @@ WIP
     - [User](#user)
     - [Post](#post)
     - [Comment](#comment)
+    - [Tag](#tag)
     - [Типы ошибок](#типы-ошибок)
 2. [Майнд-карта](#майнд-карта)
 3. [Тест-кейсы](#тест-кейсы)
@@ -414,6 +415,7 @@ owner: object(User Preview)
 ```
 
 **Response Body:**
+
 **Post**
 ```javascript
 {
@@ -575,6 +577,26 @@ ___
 Удаляет определенный по id комментарий, возвращает значение его id.
 
 **Response Body: string**
+
+___
+### Tag
+
+___
+### GET /tag
+
+Возвращает список тэгов.
+
+**Response Body:**
+
+**List**
+```javascript
+{
+data: Array(string)
+total: number(total items in DB)
+page: number(current page)
+limit: number(number of items on page)
+}
+```
 
 ___
 ### Типы ошибок
