@@ -43,6 +43,7 @@ page: number(current page)
 limit: number(number of items on page)
 }
 ```
+
 **User Preview**
 ```javascript
 {
