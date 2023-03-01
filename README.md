@@ -644,6 +644,22 @@ ___
 
 ## Баг-репорты
 
+00 - В разделе **Error Types** в документации некорректно составлено описание для ошибки **RESOURCE_NOT_FOUND**
+
+*Серьезность: тривиальная*
+
+*Шаги воспроизведения:*
+1. Открыть страницу https://dummyapi.io/docs/errors
+2. Обратить внимание на описание к ошибке *RESOURCE_NOT_FOUND*
+
+*Наблюдаемый результат:*
+
+Applicable for all requests that has {id} URL param. Mean that item that was requested(for get, update, delete) is not found. Works correctly if you try to create a post for user that not exist or deleted.
+
+*Ожидаемый результат:*
+
+Applicable for all requests that **have** {id} URL param. **It means** that item that was **requested (for GET, UPDATE, DELETE)** is not found. Works correctly if you try to create a post for user that **does not** exist or **was** deleted.
+___
 ## Коллекция Postman
 
 ## Автотесты
