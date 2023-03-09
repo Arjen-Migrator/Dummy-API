@@ -1,0 +1,415 @@
+{
+	"info": {
+		"_postman_id": "447af2b1-6de0-4b06-aa63-017d2b9cfff2",
+		"name": "Post",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24621297"
+	},
+	"item": [
+		{
+			"name": "GetPostList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(PUT)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(page=0)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/?page=0",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(page=1)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/?page=1",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(page=999)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/?page=999",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "999"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(page=1000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/?page=1000",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(page=abc)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/?page=abc",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "abc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(limit=4)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/?limit=4",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(limit=5)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/?limit=5",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(limit=50)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/?limit=50",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(limit=51)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/?limit=51",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "51"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(limit=abc)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/?limit=abc",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "abc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(created=0)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/?created=0",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "created",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(created=1)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/?created=1",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "created",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(created=2)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/?created=2",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "created",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostList(created=abc)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post/?created=abc",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "created",
+							"value": "abc"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{app-id}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "app-id",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
